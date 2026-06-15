@@ -1,8 +1,10 @@
-.PHONY: install serve build test clean
+.PHONY: install dev serve build test clean
 
 install:
 	npm install
 	hugo mod tidy
+
+dev: serve
 
 serve:
 	npm run serve
