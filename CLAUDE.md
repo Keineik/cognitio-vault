@@ -110,6 +110,17 @@ When performing searches that could pollute the main agent context, **spawn suba
 
 Subagents should return only condensed, essential results to the main agent.
 
+## Important: Avoid Generated Files
+
+**NEVER read, grep, or search inside files/folders listed in `.gitignore`.** These are generated artifacts and will pollute context with stale data:
+
+- `/public/` - Hugo build output
+- `resources/` - Hugo processed resources
+- `node_modules/` - npm dependencies
+- `package-lock.json` - npm lock file
+
+Always search only in source files (content, layouts, assets, config).
+
 ## SCSS Customization
 
 Project override files in `assets/scss/`:
