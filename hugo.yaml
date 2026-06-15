@@ -15,6 +15,10 @@ enableRobotsTXT: true
 # Will give values to .Lastmod etc.
 enableGitInfo: true
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 # Comment out to disable taxonomies in Docsy
 # disableKinds: [taxonomy]
 
