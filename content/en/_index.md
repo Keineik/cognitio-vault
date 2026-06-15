@@ -1,21 +1,15 @@
 ---
-title: Goldydocs
-description: Porridge temperature assessment &mdash; in the cloud!
+title: Cognitio Vault
+description: A personal knowledge base and blog
 params:
   body_class: td-navbar-links-all-active
 ---
 
 {{% blocks/cover
-  title="Welcome to Goldydocs: A Docsy Example and Starter Project!"
+  title="Welcome to Cognitio Vault"
   height="full td-below-navbar"
   image_anchor="top"
 %}}
-
-<!--
-  Want a cover without an image?
-  Add the following argument to the blocks/cover shortcode:
-    color="primary bg-gradient td-below-navbar"
--->
 
 <!-- prettier-ignore -->
 {{% _param description %}}
@@ -24,13 +18,12 @@ params:
 <!-- prettier-ignore -->
 <div class="td-cta-buttons my-5">
   <a {{% _param btn-lg primary %}} href="docs/">
-    Learn more
+    Explore
   </a>
   <a {{% _param btn-lg secondary %}}
     href="{{% param github_repo %}}"
     target="_blank" rel="noopener noreferrer">
-    Get the code
-    {{% _param FA brands github "" %}}
+    View on GitHub
   </a>
 </div>
 
@@ -40,54 +33,34 @@ params:
 
 {{% blocks/lead color="white" %}}
 
-Goldydocs provides a single web UI providing visibility into porridge
-temperature, chair size, and bed softness metrics! You can even find out who's
-been eating **your** porridge.
-
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example
-to create your own real websites with [Docsy](https://docsy.dev))
+Cognitio Vault is my personal knowledge base and blog &mdash; a place to document
+what I learn, share insights, and build in public.
 
 {{% /blocks/lead %}}
 
 {{% blocks/section color="primary" type="row" %}}
 
-{{% blocks/feature title="New chair metrics!" icon="fa-lightbulb" %}}
+{{% blocks/feature title="Knowledge Base" icon="fa-book" %}}
 
-The Goldydocs UI now shows chair size metrics by default.
-
-Please follow this space for updates!
+Organized notes and documentation on topics I'm exploring and mastering.
 
 {{% /blocks/feature %}}
 
 {{% blocks/feature
-  title="Contributions welcome!" icon="fab fa-github"
-  url="https://github.com/google/docsy-example"
+  title="Blog" icon="fa-pen-nib"
 %}}
 
-We do a [Pull Request](https://github.com/google/docsy-example/pulls)
-contributions workflow on **GitHub**. New users are always welcome!
+Thoughts, tutorials, and reflections on software engineering and beyond.
 
 {{% /blocks/feature %}}
 
 {{% blocks/feature
-  title="Follow us on X!" icon="fab fa-x-twitter"
-  url="https://x.com/docsydocs"
+  title="Built in Public" icon="fab fa-github"
+  url="https://github.com/keineik/cognitio-vault"
 %}}
 
-For announcement of latest features etc.
+This site is open source. Feel free to explore the code or contribute.
 
 {{% /blocks/feature %}}
-
-{{% /blocks/section %}}
-
-{{% blocks/section color="white" type="row text-center h1" %}}
-
-This is the second section
-
-{{% /blocks/section %}}
-
-{{% blocks/section color="secondary" type="row text-center h1" %}}
-
-This is the another section with center alignment
 
 {{% /blocks/section %}}
