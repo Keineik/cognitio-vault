@@ -1,12 +1,12 @@
 ---
-title: About Goldydocs
+title: About Cognitio Vault
 linkTitle: About
-description: A sample site using the Docsy Hugo theme.
+description: A personal knowledge base and blog.
 menu: { main: { weight: 10 } }
 ---
 
 {{% blocks/cover
-  title="About Goldydocs"
+  title="About Cognitio Vault"
   height="auto td-below-navbar"
   image_anchor="bottom"
 %}}
@@ -19,21 +19,13 @@ menu: { main: { weight: 10 } }
 
 {{% blocks/lead color="white" %}}
 
-Goldydocs is a sample site using the [Docsy](https://github.com/google/docsy)
-Hugo theme that shows what it can do and provides you with a template site
-structure. It’s designed for you to clone and edit as much as you like. See the
-different sections of the documentation and site for more ideas.
+Cognitio Vault is my personal knowledge base and blog &mdash; a place where I
+document what I learn, share insights on software engineering, and build in public.
 
 {{% /blocks/lead %}}
 
 {{% blocks/section type="row text-center h1" %}}
 
-This is another section with center alignment
-
-{{% /blocks/section %}}
-
-{{% blocks/section type="h1" %}}
-
-This is another section with default alignment
+Knowledge shared is knowledge multiplied.
 
 {{% /blocks/section %}}

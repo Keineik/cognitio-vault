@@ -14,6 +14,6 @@ v{{% param version %}} </span>][version]
 
 ## Build information
 
-{{% td/site-build-info/netlify team="docsy-example" %}}
+{{% td/site-build-info/netlify team="cognitio-vault" %}}
 
 [version]: <https://github.com/google/docsy/releases/v{{% param version %}}>
